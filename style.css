@@ -1,0 +1,22 @@
+/* Additional Custom Styles (if necessary) */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-md {
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+ 
+.space-y-4 > :not(template) ~ :not(template) {
+  margin-top: 1rem;
+}
+/* TailwindCSS is linked; focus additional logic */
